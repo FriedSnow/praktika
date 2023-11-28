@@ -1,0 +1,92 @@
+.altimeter-number {
+    position: absolute;
+    color: #50ff50;
+    font-size: 16px;
+    top: 89px;
+    left: 94px;
+    font-family: 'ktp', sans-serif;
+  }
+    
+  .altimeter-number:nth-child(2) {transform: rotate(0deg) translate(90px) rotate(0deg);}
+  .altimeter-number:nth-child(3) {transform: rotate(270deg) translate(90px) rotate(-270deg);}
+  .altimeter-number:nth-child(4) {transform: rotate(306deg) translate(90px) rotate(-306deg);}
+  .altimeter-number:nth-child(5) {transform: rotate(341deg) translate(90px) rotate(-341deg);}
+  .altimeter-number:nth-child(6) {transform: rotate(378deg) translate(90px) rotate(-378deg);}
+  .altimeter-number:nth-child(7) {transform: rotate(414deg) translate(90px) rotate(-414deg);}
+  .altimeter-number:nth-child(8) {transform: rotate(450deg) translate(90px) rotate(-450deg);}
+  .altimeter-number:nth-child(9) {transform: rotate(486deg) translate(90px) rotate(-486deg);}
+  .altimeter-number:nth-child(10) {transform: rotate(522deg) translate(90px) rotate(-522deg);}
+  .altimeter-number:nth-child(11) {transform: rotate(558deg) translate(90px) rotate(-558deg);}
+  .altimeter-number:nth-child(12) {transform: rotate(594deg) translate(90px) rotate(-594deg);}
+  
+  .altimeter{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/pepe2.svg);
+    border-radius: 100px;
+    position: absolute;
+    left: 538px;
+    top: 68px;
+  }
+  .around{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #90ff90;
+    top: 92px;
+    left: 92px;
+  }
+  .aarrow100 {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 90px solid #ddffdd;
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+  }
+  .aarrow100 {
+    transition: transform 1s ease-in-out;
+    transform-origin: bottom center;
+    transform: var(--rotation, -90deg);
+  }
+  .arotate-arrow100 {
+    animation: rotateAnimation 5s linear infinite;
+  }
+  .aarrow1k {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 70px solid #bbffbb;
+    position: relative;
+    top: 30px;
+    left: 95px;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+  }
+  .aarrow1k {
+    transition: transform 1s ease-in-out;
+    transform-origin: bottom center;
+    transform: var(--rotation, -90deg);
+  }
+  .arotate-arrow1k {
+    animation: rotateAnimation 5s linear infinite;
+  }
+  
+  @keyframes rotateAnimation {
+    from {
+      transform: var(--rotation, -90deg) rotate(0deg);
+      /* Начальное значение */
+    }
+  
+    to {
+      transform: var(--rotation, -90deg) rotate(360deg);
+      /* Конечное значение */
+      }
+  }
+  

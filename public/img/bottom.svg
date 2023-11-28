@@ -1,0 +1,20 @@
+<svg width="1920" height="300" viewBox="0 0 1920 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="300"/>
+<path d="M0 50H1920V300H0V50Z" fill="#181818"/>
+<path d="M810 0H1110V300H810V0Z" fill="#181818"/>
+<path d="M757 53.033L810.033 1.23382e-05L845.388 35.3554L792.355 88.3884L757 53.033Z" fill="#181818"/>
+<path d="M1110.36 0L1163.39 53.033L1128.03 88.3883L1075 35.3553L1110.36 0Z" fill="#181818"/>
+<rect x="885" y="15" width="150" height="45" fill="#101010"/>
+<circle cx="960" cy="182" r="100" fill="#2D2D2D"/>
+<rect x="20" y="165" width="452" height="52" fill="#2D2D2D"/>
+<rect x="86" y="124" width="320" height="26" fill="#696969"/>
+<rect x="508" y="111" width="243" height="26" fill="#696969"/>
+<rect x="1267" y="182" width="243" height="26" fill="#696969"/>
+<rect x="1682" y="101" width="210" height="26" fill="#696969"/>
+<rect x="1267" y="83" width="243" height="26" fill="#696969"/>
+<rect x="508" y="145" width="243" height="70" fill="#2D2D2D"/>
+<rect x="1214" y="217" width="350" height="55" fill="#2D2D2D"/>
+<rect x="1717" y="202" width="140" height="55" fill="#2D2D2D"/>
+<rect x="1718" y="137" width="140" height="55" fill="#2D2D2D"/>
+<rect x="1214" y="118" width="350" height="55" fill="#2D2D2D"/>
+</svg>

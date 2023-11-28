@@ -1,0 +1,37 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gray Circle -->
+  <circle cx="100" cy="100" r="80" fill="#1f1f1f" />
+
+  <!-- Ticks -->
+  <g transform="translate(100, 100)">
+    <!-- Loop to create 10 main ticks -->
+    <g fill="#ddd">
+      <!-- Use trigonometry to position main ticks evenly around the circle -->
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(0)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(36)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(72)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(108)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(144)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(180)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(216)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(252)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(288)" />
+      <rect x="-1" y="-80" width="2" height="15" transform="rotate(324)" />
+    </g>
+
+    <!-- Loop to create 8 smaller ticks between each main tick -->
+    <g fill="#ddd">
+      <!-- Use trigonometry to position smaller ticks evenly between each main tick -->
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(18)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(54)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(90)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(126)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(162)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(198)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(234)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(270)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(306)" />
+      <rect x="-1" y="-80" width="2" height="7" transform="rotate(342)" />
+    </g>
+  </g>
+</svg>
